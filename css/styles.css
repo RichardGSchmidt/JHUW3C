@@ -92,6 +92,12 @@ body {
 
 /** Large Devices **/
 @media(min-width: 1200px){
+  .jumbotron{
+    background: url(../images/jumbotron_1200.jpg) no-repeat;
+    height: 675px;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+  }
 
 }
 
@@ -134,5 +140,14 @@ body {
     /*Kosher icon*/
     height: 20px;
   }
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+
+  #collapsable-nav a span{
+    font-size: 1.0em;
+    margin-right: 5px;
+  }
 
 }
+
